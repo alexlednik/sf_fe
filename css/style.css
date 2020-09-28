@@ -289,8 +289,16 @@ h2{
 	text-transform: uppercase;
 }
 
-.feature-products-filter li a {
+.not-selected-feature-products-filter-item a {
 	color: black;
+}
+
+.selected-feature-products-filter-item a {
+	color: #FF2D2D;
+}
+
+.not-selected-feature-products-filter-item a:hover {
+	color: #FF2D2D;
 }
 
 .feature-products-section hr {
@@ -476,6 +484,9 @@ h2{
 }
 
 .subscribe-section form {
+    display: flex;
+    justify-content: center;
+    padding-right: 245px;
 }
 
 .subscribe-email-input input {
@@ -542,6 +553,10 @@ h2{
 }
 
 .get-in-touch-form {
+    margin-right: 110px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .get-in-touch-form input {
@@ -557,13 +572,12 @@ h2{
 }
 
 .name-input {
-	margin-right: 49px;
-	padding: 21px 92px 21px 54px;
+	padding: 21px 102px 21px 54px;
 
 }
 
 .email-input {
-	padding: 21px 97px 21px 49px;
+	padding: 21px 112px 21px 49px;
 }
 
 
@@ -604,9 +618,10 @@ h2{
 
 .contact-info {
 	background-color: #2D2D2D;
-	width: 580px;
-	height: 485px;
-	padding-left: 80px;
+    min-width: 295px;
+    height: 482px;
+    padding-left: 80px;
+    padding-right: 200px;
 }
 
 .contact-info h3 {
@@ -641,6 +656,39 @@ h2{
 
 .phone {
 
+}
+
+.footer{
+	margin-top: 110px;
+	background-color: #2c2c2c;
+}
+
+.footer-content {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	max-width: 1249px;
+}
+
+.footer-content p {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	color: #B8B8B8;
+	padding-top: 54px;
+	padding-bottom: 34px;
+}
+
+.footer-content ul {
+	display: flex;
+	justify-content: end;
+	margin-top: 50px;
+}
+
+.footer-content li {
+	margin-left: 18px;
 }
 
 .media screen and (max-width: 1024px) {

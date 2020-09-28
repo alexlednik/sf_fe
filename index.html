@@ -68,11 +68,11 @@
 			</div>
 			<hr>
 			<ul class="feature-products-filter">
-				<li><a href="">All</a></li>
-				<li><a href="">Print template</a></li>
-				<li><a href="">Web template</a></li>
-				<li><a href="">User interface</a></li>
-				<li><a href="">Mock-up</a></li>
+				<li class="selected-feature-products-filter-item"><a href="">All</a></li>
+				<li class="not-selected-feature-products-filter-item"><a href="">Print template</a></li>
+				<li class="not-selected-feature-products-filter-item"><a href="">Web template</a></li>
+				<li class="not-selected-feature-products-filter-item"><a href="">User interface</a></li>
+				<li class="not-selected-feature-products-filter-item"><a href="">Mock-up</a></li>
 			</ul>
 			<ul class="feature-products-tiles">
 				<li><img src="img/Sierpinski_square.jpg" alt=""></li>
@@ -131,7 +131,7 @@
 			<h2>Design tips, tricks, and freebies. Delivered weekly.</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo temporibus modi</p>
 			<form class="subscribe-email-input" action="" method="GET">
-				<input type="email" name="email" placeholder="Email Address...">
+				<input type="email" name="email" required placeholder="Email Address...">
 				<button type="submit">Subscribe</button>
 			</form>
 		</section>
@@ -144,14 +144,14 @@
 			<hr>
 			<div class="get-in-touch-form-wrapper">
 				<form class="get-in-touch-form" action="" method="GET">
-					<input class="name-input" type="text" name="name" placeholder="Name">
-					<input class="email-input" type="email" name="email" placeholder="Your Mail">
+					<input class="name-input" type="text" name="name" placeholder="Name" required>
+					<input class="email-input" type="email" name="email" placeholder="Your Mail" required>
 					<textarea class="message-input" name="message" placeholder="Type your message"></textarea>
 					<button type="submit">Send message</button>
 				</form>
 				<address class="contact-info">
 					<h3>Contact info</h3>
-					<p class="address">Jalalabad 24 / A, Ambaarkhana, Sylhet,  Bangladesh</p>
+					<p class="address">Jalalabad 24 / A, Ambaarkhana, Sylhet, Bangladesh</p>
 					<p class="email">redwan@deviserweb.com</p>
 					<p class="phone">(+88) 017 617 46373</p>
 				</address>
@@ -159,13 +159,15 @@
 		</section>
 	</main>
 	<footer class="footer">
-		<p>© Copyright @Junaed 2016, All rights reserved.</p>
-		<ul>
-			<li><a href=""><img src="" alt=""></a></li>
-			<li><a href=""><img src="" alt=""></a></li>
-			<li><a href=""><img src="" alt=""></a></li>
-			<li><a href=""><img src="" alt=""></a></li>
-		</ul>
+		<div class="footer-content">
+			<p>© Copyright @Junaed 2016, All rights reserved.</p>
+			<ul>
+				<li><a href="#"><img src="img/Twitter_Rounded_Solid.png" alt="Twitter"></a></li>
+				<li><a href="#"><img src="img/LinkedIn_Rounded_Solid.png" alt="LinkedIn"></a></li>
+				<li><a href="#"><img src="img/Google_Rounded_Solid.png" alt="Google Plus"></a></li>
+				<li><a href="#"><img src="img/Facebook_Rounded_Solid.png" alt="Facebook"></a></li>
+			</ul>
+		</div>
 	</footer>
 </body>
 </html>
